@@ -1,7 +1,7 @@
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoMdClose } from "react-icons/io";
-import LanguageSwitcher from './LanguageSwitcher'; 
+import LanguageSwitcher from "../components/languageSwitcher.jsx"
 import { useTranslation } from 'react-i18next';
 import { Link,useLocation } from 'react-router-dom';
 import { useState } from 'react';
